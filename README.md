@@ -139,7 +139,7 @@ export API_QUOTA=10
    ```
 2. Start the services:
    ```bash
-   docker-compose up -d
+   docker-compose up --build -d
    ```
 3. The API will be available at `http://localhost:8000`
 
@@ -252,7 +252,7 @@ To run both frontend and backend together:
 1. Start the backend:
    ```bash
    cd backend
-   docker-compose up -d
+   docker-compose up --build -d
    ```
 2. Start the frontend:
    ```bash
